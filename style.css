@@ -1,0 +1,44 @@
+body {
+  @import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap')
+
+}
+.buttoner{
+	cursor: pointer;
+	width: 40%;
+	height: 100vh;
+	position: fixed;
+	top: 0px;
+	right: 0px;
+  z-index: 2025;
+	color: white;
+	background-color: black;
+  text-decoration: none;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  text-align: center;
+  
+  display: inline-block;
+ 
+  box-shadow: 3px 4px 2px #ccc;
+  transition: color 0.3s, background-image 0.5s, ease-in-out;
+}
+ul{
+  list-style-type: none;
+  font-size: 30px;
+  padding-left: 30px;
+  margin-left: 20px;  
+}
+li{
+  padding: 5px;
+  font-size: larger;
+  text-align: left;
+  margin-left: 44px;
+}
+.rooto{
+  width: 100%;
+  background-color: aqua;
+  height: 40px;
+}
+
+
+

@@ -1,0 +1,38 @@
+{
+   "name":"Ruto Kenya Kwanza",
+   "version":"1.0",
+   "description":"I just modified an old extension i had made  ",
+        "icons": {
+    "48": "icon48.png",
+    "128": "icon.png"
+  },
+   "manifest_version":3,
+  
+   "content_scripts":[
+      {
+         "matches":[
+            "<all_urls>"
+         ],
+         "js":[
+            "content.js"
+         ],
+         "css":[
+            "style.css"
+         ]
+      }
+   ],
+
+   "web_accessible_resources":[
+      {
+         "resources":[
+            "template.png",
+            "ruto.png",
+            "ntv.jpg",
+            "debate.jpg"
+         ],
+         "matches":[
+            "<all_urls>"
+         ]
+      }
+   ]
+}
